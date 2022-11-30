@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
 const process = require('process');
-let args = process.argv.slice(2, 3);
+const args = process.argv.slice(2, 3);
 
 function fact (a) {
   if (a === 1) {
